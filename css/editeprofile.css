@@ -1,0 +1,26 @@
+._h1 {
+  font-size: 5rem;
+}
+._container-edit {
+  @media screen and (min-width: 980px) {
+    width: 50%;
+  }
+}
+._img-avatar {
+  width: 150px;
+}
+._opacity {
+  opacity: 0.75;
+}
+.btn {
+  &:hover {
+    color: white;
+  }
+}
+.hr {
+  color: white;
+  background-color: white;
+}
+._lt-spacing {
+  letter-spacing: 0.2rem;
+}
