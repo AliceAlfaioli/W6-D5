@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body data-bs-theme="dark">
-    <div class="container-xxl">
+    <div class="container">
       <header>
-        <nav class="navbar navbar-expand-lg bg-dark border-bottom-0 border-body" data-bs-theme="dark">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom-0" data-bs-theme="dark">
+          <div class="container-fluid">   <!-- LOGO NETFLIX--------------->
             <a class="navbar-brand" href="https://www.netflix.com/it/"
-              ><img src="./Netflix-assets/assets/netflix_logo.png" alt="" style="width: 140px"
+              ><img src="./Netflix-assets/assets/netflix_logo.png" alt="" style="width: 170px"
             /></a>
             <button
               class="navbar-toggler"
@@ -50,14 +50,14 @@
                   <a class="nav-link" href="#">My List</a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
+              <form class="d-flex justify-content-end" role="search">
                 <div class="input-group border border-0">
-                  <!-- cerca -->
+                  <!-- Search ---------------------------------------->
                   <button class="btn" data-bs-theme="dark" type="submit">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="25"
-                      height="25"
+                      width="20"
+                      height="20"
                       fill="white"
                       class="bi bi-search fw-bold"
                       viewBox="0 0 16 16"
@@ -67,20 +67,20 @@
                       />
                     </svg>
                   </button>
-                  <!-- input -->
+                  <!-- input ------------------------------------------>
                   <input
-                    class="form-control fw-semibold border-0 w-10!important"
+                    class="form-control"
                     type="search"
                     placeholder="KIDS"
-                    aria-label="Search"
+                    aria-label="Search" 
                   />
 
-                  <!-- campana -->
+                  <!-- bell ---------------------------------->
                   <button type="button" class="btn border-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="22"
-                      height="22"
+                      width="20"
+                      height="20"
                       fill="white"
                       class="bi bi-bell-fill"
                       viewBox="0 0 16 16"
@@ -90,11 +90,11 @@
                       />
                     </svg>
                   </button>
-                  <!-- kids -->
-                  <button type="button" class="btn border-0">
-                    <img src="./Netflix-assets/assets/kids_icon.png" width="20px" alt="" srcset="" />
-                  </button>
-                  <!-- dropdown -->
+                  <!-- kids --------------------------------------------->
+                  
+                    <img src="./Netflix-assets/assets/kids_icon.png" width="50px" alt="Kids" />
+                
+                  <!-- dropdown ------------------------------------------>
                   <button
                     type="button"
                     class="btn border-0 dropdown-toggle dropdown-toggle-split text-white"
@@ -102,9 +102,9 @@
                     aria-expanded="false"
                   ></button>
                   <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Frank</a></li>
-                    <li><a class="dropdown-item" href="#">Profilo 2</a></li>
-                    <li><a class="dropdown-item" href="#">Profilo 3</a></li>
+                    <li><a class="dropdown-item" href="#">Cice93</a></li>
+                    <li><a class="dropdown-item" href="#">Company 1</a></li>
+                    <li><a class="dropdown-item" href="#">Comapny 2</a></li>
                   </ul>
                 </div>
               </form>
@@ -113,13 +113,13 @@
         </nav>
       </header>
 
-      <!--  SECTION 1 -->
+      <!--  SECTION 1 ------------------------------------------------------>
       <div class="container-xxl py-3>
       <div class="row">
         <div class="col d-flex">
           <h1 class="mx-2">Tv Shows</h1>
-          <button class="btn btn-dark dropdown-toggle" data-bs-toogle="dropdown" aria-expanded="false">Genres</button>
-          <ul class="dropdown-menu dropdown-menu-dark">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toogle="dropdown">Genres</button>
+          <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#"></a>My list</li>
             <li><a class="dropdown-item" href="#"></a>Action</li>
             <li><a class="dropdown-item" href="#"></a>Anime</li>
@@ -128,8 +128,8 @@
             <li><a class="dropdown-item" href="#"></a>Kids</li>
           </ul>
         </div>
-        <div class="col me-2 d-flex justify-content-end align-items-center">
-          <svg
+        <div class="col d-flex justify-content-end">
+          <svg 
             class="border border-dark-subtle"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -160,73 +160,73 @@
       </div>
     </div>
 
-    <!-- card -->
+    <!-- card ------------------------------------------------------------>
 
-    <div class="container-fluid">  <!-- row1 -->
+    <div class="container-fluid">  <!-- row1 ----------------------------->
       <h3 class="fw-bold fs-4 text-start mb-3 mt-5 mx-4">Trending Now</h3>
       <div class="row mx-2">
         <div class="col-6 col-md-4 col-lg-2 mb-4 g-col-5">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media0.webp" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media0.webp" class="card-img" alt="films" />
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mb-4">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media1.jpg" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media1.jpg" class="card-img" alt="films" />
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mb-4">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media10.jpg" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media10.jpg" class="card-img" alt="films" />
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mb-4">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media11.jpg" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media11.jpg" class="card-img" alt="films" />
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mb-4">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media12.jpg" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media12.jpg" class="card-img" alt="films" />
           </div>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mb-4">
           <div class="card shadow border-0">
-            <img src="./Netflix-assets/assets/media/media13.jpg" class="card-img" alt="maldives" />
+            <img src="./Netflix-assets/assets/media/media13.jpg" class="card-img" alt="films" />
           </div>
         </div>
         </div>
 
-        <h3 class="fw-bold fs-4 text-start mb-3 mt-5 mx-4">Trending Now</h3> <!-- row2 -->
+        <h3 class="fw-bold fs-4 text-start mb-3 mt-5 mx-4">Trending Now</h3> <!-- row2 ------------------------------------------------------->
         <div class="row mx-2">
           <div class="col-6 col-md-4 col-lg-2 mb-4 g-col-5">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media14.webp" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media14.webp" class="card-img" alt="films" />
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-2 mb-4">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media15.jpg" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media15.jpg" class="card-img" alt="films" />
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-2 mb-4">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media16.webp" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media16.webp" class="card-img" alt="films" />
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-2 mb-4">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media17.jpg" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media17.jpg" class="card-img" alt="films" />
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-2 mb-4">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media18.jpg" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media18.jpg" class="card-img" alt="films" />
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-2 mb-4">
             <div class="card shadow border-0">
-              <img src="./Netflix-assets/assets/media/media19.webp" class="card-img" alt="maldives" />
+              <img src="./Netflix-assets/assets/media/media19.webp" class="card-img" alt="films" />
             </div>
           </div>
  
@@ -234,42 +234,42 @@
           <div class="row mx-2">
             <div class="col-6 col-md-4 col-lg-2 mb-4 g-col-5">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media2.webp" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media2.webp" class="card-img" alt="films" />
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mb-4">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media29.jpg" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media29.jpg" class="card-img" alt="films" />
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mb-4">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media30.jpg" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media30.jpg" class="card-img" alt="films" />
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mb-4">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media31.webp" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media31.webp" class="card-img" alt="films" />
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mb-4">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media32.jpg" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media32.jpg" class="card-img" alt="films" />
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mb-4">
               <div class="card shadow border-0">
-                <img src="./Netflix-assets/assets/media/media5.webp" class="card-img" alt="maldives" />
+                <img src="./Netflix-assets/assets/media/media5.webp" class="card-img" alt="films" />
               </div>
             </div>
 
-            <!-- footer -->
+            <!-- footer ----------------------------------------->
 
             <footer data-bs-theme="dark">
                 <div class="container py-5">
                    <div class="row">
                       <div class="col">
-                        <div class="d-flex gap-5">
+                        <div class="d-flex gap-4">
                         <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                       </svg>
@@ -287,39 +287,39 @@
                    </div>
                 </div>
 
-             <div class="container">
+             <div class="container ">
               <div class="row d-flex">
                 <div class="col d-flex flex-column">
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Audio and Subtitles</a>
-                  <a  class="link-body-emphasis opacity-25 link-underline-opacity-75" href="#">Media Center</a>
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Privacy</a>
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Contact Us</a>
+                  <a class="link-body-emphasis link-underline-opacity-0" href="#">Audio and Subtitles</a>
+                  <a  class="link-body-emphasis link-underline-opacity-0" href="#">Media Center</a>
+                  <a class="link-body-emphasis link-underline-opacity-0" href="#">Privacy</a>
+                  <a class="link-body-emphasis link-underline-opacity-0" href="#">Contact Us</a>
                 </div>
                 <div class="col d-flex flex-column">
-                   <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Audio Description</a>
-                   <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Investor Relations</a>
-                   <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Legal Notices</a>
+                   <a class="link-body-emphasis link-underline-opacity-0" href="#">Audio Description</a>
+                   <a class="link-body-emphasis link-underline-opacity-0" href="#">Investor Relations</a>
+                   <a class="link-body-emphasis link-underline-opacity-0" href="#">Legal Notices</a>
                 </div>
                 <div class="col d-flex flex-column">
-                    <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Help Center</a>
-                    <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Jobs</a>
-                    <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Cookie Preferences</a>
+                    <a class="link-body-emphasis  link-underline-opacity-0" href="#">Help Center</a>
+                    <a class="link-body-emphasis  link-underline-opacity-0" href="#">Jobs</a>
+                    <a class="link-body-emphasis  link-underline-opacity-0" href="#">Cookie Preferences</a>
                 </div>
 
                 <div class="col d-flex flex-column">
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Gift Cards</a>
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Term of Use</a>
-                  <a class="link-body-emphasis  opacity-25 link-underline-opacity-75" href="#">Corporate Information</a>
+                  <a class="link-body-emphasis  link-underline-opacity-0" href="#">Gift Cards</a>
+                  <a class="link-body-emphasis  link-underline-opacity-0" href="#">Term of Use</a>
+                  <a class="link-body-emphasis link-underline-opacity-0" href="#">Corporate Information</a>
               </div>
               </div>
              </div> 
              <div class="container">
               <div class="row py-5">
                 <div class="col">
-                   <a class="service fs-5" href="#">Service Code</a>
+                   <a class="service" href="#">Service Code</a>
                 </div>
               </div>
-              <p class="copy">&copy; 1997-2019 Netflix, Inc. { i-0d00fcda2fd9c0de}</p>
+              <p class="copy text-light">&copy; 1997-2019 Netflix, Inc. { i-0d00fcda2fd9c0de}</p>
              </div>
           </footer>
 
